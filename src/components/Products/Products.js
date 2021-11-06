@@ -3,8 +3,8 @@ import Grid from '@mui/material/Grid';
 import Product from './Product/Product';
 
 const products = [
-    {id: 1, name: 'Shoes', description: 'Running shoes', price: '$5'},
-    {id: 2, name: 'Macbook', description: 'Apple macbook', price:'$10'}
+    {id: 1, name: 'Shoes', description: 'Running shoes', price: '$5', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzjxphP5tzHlG0MnR6oFQlUrdqzcZ0vK__yQ&usqp=CAU'},
+    {id: 2, name: 'Macbook', description: 'Apple macbook', price:'$10', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzjxphP5tzHlG0MnR6oFQlUrdqzcZ0vK__yQ&usqp=CAU'}
 ]
 
 const Products = () => {
